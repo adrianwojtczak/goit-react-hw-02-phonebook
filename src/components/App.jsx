@@ -56,7 +56,7 @@ export class App extends Component {
     const filteredContacts = this.getFilteredContacts();
 
     return (
-      <div>
+      <div style={{ maxWidth: '600px', padding: '0 20px', margin: '0 auto' }}>
         <h1>Phonebook</h1>
         <ContactForm onAddContact={this.addContact} />
         <h2>Contacts</h2>
